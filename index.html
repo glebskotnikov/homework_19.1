@@ -281,10 +281,109 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="btn btn-success form-control">Купить</button>
                         </div>
                     </div>
                 </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body py-3">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputName1" class="form-label">Имя</label>
+                                    <input type="name" class="form-control" id="exampleInputName1">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="d-inline-flex gap-1 mt-3">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample1" aria-expanded="false"
+                                aria-controls="collapseExample">
+                            Где купить?
+                        </button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample2" aria-expanded="false"
+                                aria-controls="collapseExample">
+                            Как доставить?
+                        </button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample3" aria-expanded="false"
+                                aria-controls="collapseExample">
+                            Какая гарантия?
+                        </button>
+
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="card card-body">
+                            Купить тут.
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            Как хочешь.
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            Гарантии только в банке.
+                        </div>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Название товара</th>
+                        <th scope="col">Цена за шт</th>
+                        <th scope="col">Кол-во</th>
+                        <th scope="col">Итоговая сумма</th>
+                        <th scope="col">Статус заказа</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>iPhone 14 proMax</td>
+                        <td>1099$</td>
+                        <td>100</td>
+                        <td>109900$</td>
+                        <td class="table-primary">новый</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>iPhone 14 pro</td>
+                        <td>999$</td>
+                        <td>100</td>
+                        <td>99900$</td>
+                        <td class="table-warning">обработка</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>iPhone 14 Plus</td>
+                        <td>899$</td>
+                        <td>100</td>
+                        <td>89900$</td>
+                        <td class="table-success">обработан</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>iPhone 14</td>
+                        <td>799$</td>
+                        <td>100</td>
+                        <td>79900$</td>
+                        <td class="table-danger">отмена</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </main>
 
